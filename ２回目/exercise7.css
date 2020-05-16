@@ -1,0 +1,28 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 400px;
+	background-image: url(mv.jpg);
+	background-position: bottom;
+	background-size: cover;
+}
+.headline{
+	padding: 20px;
+	/*下はいらなかったらしい*/
+	font-size: 32px;
+	color: #848686
+}
+main{
+	width: 840px;
+	margin: 50px auto;
+}
+.box1{
+	/*上の５０pxに加えて３０pxずつ上下に増えてるのと*/
+	/*左右は８４０pxの内側に３０pxずつさらによってしまっている*/
+	padding:30px;
+	border-bottom: 1px solid #848686;
+}
